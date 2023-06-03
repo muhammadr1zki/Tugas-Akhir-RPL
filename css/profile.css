@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #37323E;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #E8B832;
+}
+
+/* Header */
+.header .row {
+    border: 2px solid #cecece;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .col-lg-3 {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content */
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main .row {
+    border: 2px solid #cecece;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .row .col-lg-9 .row {
+    border: none;
+    justify-content: flex-start;
+}
+
+.main .col-lg-3 {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.card-img-top {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+/* Buttons */
+.btn1 {
+    height: 40px;
+    width: 95px;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    background: #37323E;
+    color: white;
+    font-weight: 700;
+}
+
+.btn1:hover {
+    color: #37323E;
+    background-color: white;
+    border: 1px solid #37323E;
+    transition: 0.5s;
+}
+
+.btn2 {
+    height: 40px;
+    width: 95px;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    background: #E8B832;
+    color: white;
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+.btn2:hover {
+    background-color: #DEAA00;
+}
+
+.btn3 {
+    height: 40px;
+    width: 95px;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    background: #E70000;
+    color: white;
+    font-size: 14pt;
+    font-weight: 700;
+}
+
+.btn3:hover {
+    background-color: #C10101;
+}
+
+.btn4 {
+    height: 32px;
+    width: 72px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    background: #E70000;
+    color: white;
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+.btn4:hover {
+    background-color: #C10101;
+}
+
+.btn5 {
+    height: 32px;
+    width: 84px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    background: #E8B832;
+    color: white;
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+.btn5:hover {
+    background-color: #DEAA00;
+}

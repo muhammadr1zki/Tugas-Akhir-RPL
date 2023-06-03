@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #E8B832;
+}
+
+.main h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #37323E;
+}
+
+.btn1 {
+    height: 40px;
+    width: 95px;
+    outline: none;
+    border: none;
+    background-color: #E8B832;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover {
+    color: #E8B832;
+    background-color: white;
+    border: 1px solid #E8B832;
+    transition: 0.5s;
+}
+
+.btn2 {
+    height: 40px;
+    width: 95px;
+    outline: none;
+    border: none;
+    background-color: #37323E;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn2:hover {
+    color: #37323E;
+    background-color: white;
+    border: 1px solid #37323E;
+    transition: 0.5s;
+}
+
+.row {
+    background-color: #ececec;
+    border-radius: 8px;
+}
+
+.header .col-lg-3 {
+    margin: 8px;
+    justify-content: center;
+}
+
+.header .col-lg-5 {
+    margin: 8px;
+    position:relative;
+    align-items: center;
+}
+
+.profile h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.profile h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}

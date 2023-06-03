@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #E8B832;
+}
+
+/* Buttons */
+.btn1 {
+    height: 40px;
+    width: 95px;
+    outline: none;
+    border: none;
+    background-color: #E8B832;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover {
+    color: #E8B832;
+    background-color: white;
+    border: 1px solid #E8B832;
+    transition: 0.5s;
+}
+
+.btn2 {
+    height: 40px;
+    width: 95px;
+    outline: none;
+    border: none;
+    background-color: #37323E;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn2:hover {
+    color: #37323E;
+    background-color: white;
+    border: 1px solid #37323E;
+    transition: 0.5s;
+}
+
+.btn3 {
+    height: 40px;
+    width: 120px;
+    border: none;
+    outline: none;
+    background-color: #FCEFEF;
+    color: #37323E;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn3:hover {
+    color: #FCEFEF;
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid #FCEFEF;
+    transition: 0.5s;
+}
+
+.btn-light {
+    background-color: #fff;
+    border-color: #e4e4e4;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list-menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.list-menu a {
+    color: #37323E;
+}
+
+/* Card */
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
